@@ -80,3 +80,4 @@ def delete_student(student_id: int):
 
     del students[student_id]
     return {"Message": "Student deleted successfully"}
+
